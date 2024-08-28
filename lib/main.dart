@@ -18,6 +18,10 @@ class Main extends StatelessWidget
           elevation: 4,
           shadowColor: Colors.black45,
           titleTextStyle:  TextStyle(fontSize: 27,color: Colors.black)
+        ),
+        floatingActionButtonTheme: FloatingActionButtonThemeData(
+          backgroundColor: Colors.greenAccent.shade200,
+          foregroundColor: Colors.black
         )
       ),
       themeMode: ThemeMode.system,

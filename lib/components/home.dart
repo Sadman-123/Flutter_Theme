@@ -9,6 +9,7 @@ class Home extends StatelessWidget
       ),
       drawer: Drawer(),
       body: Center(child: TextButton(onPressed: (){}, child: Text("Click me"))),
+      floatingActionButton: FloatingActionButton(onPressed: (){},child: Icon(Icons.call),),
     );
   }
 }
