@@ -7,6 +7,7 @@ class Home extends StatelessWidget
       appBar: AppBar(
         title: Text("Home"),
       ),
+      drawer: Drawer(),
       body: Center(child: TextButton(onPressed: (){}, child: Text("Click me"))),
     );
   }
