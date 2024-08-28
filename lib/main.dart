@@ -10,6 +10,17 @@ class Main extends StatelessWidget
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        brightness: Brightness.light,
+        appBarTheme: AppBarTheme(
+          backgroundColor: Colors.greenAccent.shade200,
+          centerTitle: true,
+          elevation: 4,
+          shadowColor: Colors.black45,
+          titleTextStyle:  TextStyle(fontSize: 27,color: Colors.black)
+        )
+      ),
+      themeMode: ThemeMode.system,
       home: Home(),
     );
   }
